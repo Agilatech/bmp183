@@ -1,6 +1,6 @@
 {
   "name": "@agilatech/bmp183",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Driver for the BMP183 Sensor",
   "main": "./build/Release/bmp183",
   "gypfile": true,
