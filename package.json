@@ -1,0 +1,20 @@
+{
+  "name": "@agilatech/bmp183",
+  "version": "0.8.0",
+  "description": "Driver for the BMP183 Sensor",
+  "main": "./build/Release/bmp183",
+  "gypfile": true,
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Agilatech/bmp183.git"
+  },
+  "keywords": [
+    "Sensor",
+    "BMP183"
+  ],
+  "author": "Scott Erholm <scott@agilatech.com>",
+  "license": "MIT"
+}
