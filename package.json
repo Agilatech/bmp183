@@ -13,7 +13,10 @@
   },
   "keywords": [
     "Sensor",
-    "BMP183"
+    "BMP183",
+    "Pressure",
+    "Barometric",
+    "Temperature"
   ],
   "author": "Scott Erholm <scott@agilatech.com>",
   "license": "MIT"

@@ -43,7 +43,8 @@ const bmp183 = new addon.Bmp183('/dev/spidev1.0', 1000, 2);
 ```
 ####Get basic device info
 ```
-const name = bmp183.bmp183();  // returns string with name of device
+const name = bmp183.deviceName();  // returns string with name of device
+const type = bmp183.deviceType();  // returns string with type of device (sensor, actuator, etc)
 const version = bmp183.deviceVersion(); // returns this software version
 const active = bmp183.deviceActive(); // true if active, false if inactive
 const numVals =  bmp183.deviceNumValues(); // returns the number of paramters sensed
@@ -100,7 +101,7 @@ argument.  See the Bosch datasheet for full explanation.
 * 3 - Ultra High Resolution Mode
 
 ###Dependencies
-* node-gyp
+* node-gyp is used to configure and build the driver
 
 ###Copyright
 Copyright © 2016 Agilatech. All Rights Reserved.
